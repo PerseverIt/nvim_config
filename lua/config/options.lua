@@ -28,5 +28,3 @@ opt.undofile = true --关闭文件也能保持撤销
 opt.updatetime = 300 --LSP诊断更快刷新
 opt.signcolumn = "yes" --防止LSP错误、Git修改标记导致界面抖动
 
---leader键
-vim.g.maleader = " "
