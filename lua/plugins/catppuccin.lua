@@ -7,7 +7,7 @@ return {
 
     config = function()--setup函数放到里面
      require("catppuccin").setup({
-    flavour = "latte", -- latte, frappe, macchiato, mocha
+    flavour = "mocha", -- latte, frappe, macchiato, mocha
     })
 
 	-- setup must be called before loading

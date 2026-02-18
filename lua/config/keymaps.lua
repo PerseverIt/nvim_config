@@ -54,3 +54,6 @@ map("n", "gd", vim.lsp.buf.definition, "跳转到定义")
 map("n", "gr", vim.lsp.buf.references, "查找引用")
 map("n", "K", vim.lsp.buf.hover, "查看文档")
 map("n", "<leader>rn", vim.lsp.buf.rename, "重命名符号")
+
+map("n", "<leader>e", "<cmd>Neotree toggle<CR>", "翻转侧边栏")
+map("n", "<leader>o", "<cmd>Neotree reveal<CR>", "定位当前文件")
