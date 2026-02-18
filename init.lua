@@ -1,2 +1,7 @@
-require("config.lazy")
+--leader键
+vim.g.maleader = " "
+
 require("config.options")
+require("config.autocmds")
+require("config.lazy")
+require("config.keymaps")
