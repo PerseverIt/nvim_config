@@ -14,7 +14,7 @@ end
 map("n", "<leader>w", "<cmd>w<CR>", "保存文件")
 map("n", "<leader>q", "<cmd>q<CR>", "退出")
 map("n", "<leader>Q", "<cmd>q!<CR>", "强制退出")
-map("n", "<leader>h", "<cmd>nohlsearch<CR>", "清除搜索高亮")
+map("n", "<leader>z", "<cmd>nohlsearch<CR>", "清除搜索高亮")
 
 --------------------------------------------------
 -- 窗口管理
