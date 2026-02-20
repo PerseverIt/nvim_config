@@ -2,10 +2,10 @@
 -- Map 封装函数
 --------------------------------------------------
 local function map(mode, lhs, rhs, desc, opts)
-  opts = opts or {}
-  opts.desc = desc
-  opts.silent = opts.silent ~= false
-  vim.keymap.set(mode, lhs, rhs, opts)
+	opts = opts or {}
+	opts.desc = desc
+	opts.silent = opts.silent ~= false
+	vim.keymap.set(mode, lhs, rhs, opts)
 end
 
 --------------------------------------------------
@@ -59,9 +59,8 @@ map("n", "<leader>e", "<cmd>Neotree toggle<CR>", "翻转侧边栏")
 map("n", "<leader>o", "<cmd>Neotree reveal<CR>", "定位当前文件")
 
 -- LSP 常用功能映射
-map('n', 'gd', vim.lsp.buf.definition, "跳转到定义" )
-map('n', 'gr', vim.lsp.buf.references,  "查看引用" )
-map('n', 'K', vim.lsp.buf.hover, "显示悬浮文档" )
-map('n', '<leader>rn', vim.lsp.buf.rename, "变量重命名" )
-map('n', '<leader>ca', vim.lsp.buf.code_action, "代码操作/修复" )
-
+map('n', 'gd', vim.lsp.buf.definition, "跳转到定义")
+map('n', 'gr', vim.lsp.buf.references, "查看引用")
+map('n', 'K', vim.lsp.buf.hover, "显示悬浮文档")
+map('n', '<leader>rn', vim.lsp.buf.rename, "变量重命名")
+map('n', '<leader>ca', vim.lsp.buf.code_action, "代码操作/修复")
