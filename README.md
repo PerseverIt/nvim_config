@@ -115,7 +115,7 @@ Leader 键: `空格`
 mv ~/.config/nvim ~/.config/nvim.bak
 
 # 克隆配置
-git clone https://github.com/YOUR_USERNAME/nvim.git ~/.config/nvim
+git clone https://github.com/PerseverIt/nvim.git ~/.config/nvim
 
 # 启动 Neovim，插件会自动安装
 nvim
